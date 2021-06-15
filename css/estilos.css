@@ -1,0 +1,223 @@
+@font-face{
+	font-family: "mr_robot";
+     src: url("../fonts/MR ROBOT.ttf");
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+:target{
+	scroll-margin-top: 50px !important;
+}
+
+h2{
+	font-size: 40px !important;
+}
+
+body{
+	background-color: #24242C !important;
+	color: #f1f1f1 !important;
+}
+
+/* MENU */
+.menu-close{
+	font-size: 20px !important;
+}
+
+.menu h1.logo a{
+	margin-top: 0px !important;
+	line-height: 30px !important;
+}
+
+.menu h1.logo a:hover{
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.menu a.active {
+    color: #ffffff;
+	text-decoration: underline;
+}
+
+a.icone i{
+	float: inherit !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    text-align: left !important;
+    width: 25px !important;
+    font-size: 35px !important;
+    line-height: 40px !important;
+    margin: 10px 2px 0px 2px !important;
+}
+
+.cade{
+	margin-left: 37%;
+}
+
+.name-desc h2 {
+	margin-top: 5px !important;
+}
+
+#aboutwrap{
+	margin-bottom: 20px !important;
+}
+
+h2.subTitulo{
+	color: #ffffff;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+    font-size: 30px !important;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;	
+}
+
+#galer button{
+	height: 70px;
+	margin-left: 75%;
+	margin-bottom: 5%;
+	background-color: #b90000;
+	border: 1px solid black ; 
+}
+
+#btt{
+	font-size: 20px;
+}
+
+/* Outras Paginas */
+#tit{
+	color:white;
+}
+
+#menu{
+	float: right;
+}
+
+#rodape{
+	bottom: 0px;
+	position: absolute;
+}
+
+/* menu */
+
+#na a{
+	font-size: 1.6em;
+	margin-top: 10px;
+}
+
+#meno{
+	float: right;
+}
+
+#theMenu{
+	z-index: 100;
+}
+
+#areaPrincipal
+{
+	width: 90%;
+	height: 560px;
+	float: top;
+	border: 2px solid black; 
+	padding: 0px;
+	margin: 0px;
+	margin-left: 5%;
+}
+
+
+/* responsividade em algo que eu criei */
+
+@media screen and (max-width:900px)
+{
+
+	#galer button{
+		height: 70px;
+		margin-left: 9%;
+		margin-bottom: 10%;
+		background-color: #b90000;
+		border: 1px solid black ; 
+	}
+	
+	#areaPrincipal{
+		height: 480px;
+	}
+	
+	
+	
+}
+
+/* ================================================== 
+			QUALIDADES
+================================================== */
+
+
+/* ================================================== 
+			RESPONSIVIDADE
+================================================== */
+
+
+@media screen and (max-width:750px)
+{
+	#areaPrincipal{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width:600px)
+{
+
+	#galer button{
+		height: 70px;
+		margin-bottom: 10%;
+		background-color: #b90000;
+		border: 1px solid black ; 
+	}
+	
+	#areaPrincipal{
+		height: 320px;
+	}
+	
+	.cade{
+	margin-left: 25%;
+}
+}
+
+@media screen and (max-width:500px)
+{
+	#areaPrincipal{
+		height: 240px;
+	}
+}
+
+@media screen and (max-width:400px)
+{
+
+	#galer button{
+		height: 70px;
+		margin-left: 30%;
+		margin-bottom: 14%;
+		background-color: #b90000;
+		border: 1px solid black ; 
+	}
+	
+	#btt{
+	font-size: 10px;
+	}
+	
+	#myCarousel{
+		height: 300px;
+		width: 90%;
+		margin-left: 5.4%;
+	}
+
+	#myCarousel img{
+		height: 300px;
+		width: 100%;
+	}
+	
+	#areaPrincipal{
+		height: 140px;
+	}
+	
+}
