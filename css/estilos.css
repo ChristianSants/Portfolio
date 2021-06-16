@@ -7,6 +7,10 @@ html{
 	scroll-behavior: smooth;
 }
 
+a:hover{
+	text-decoration: none !important;
+}
+
 :target{
 	scroll-margin-top: 50px !important;
 }
@@ -37,7 +41,7 @@ body{
 
 .menu a.active {
     color: #ffffff;
-	text-decoration: underline;
+/*	text-decoration: underline; */
 }
 
 a.icone i{
@@ -123,6 +127,55 @@ h2.subTitulo{
 	padding: 0px;
 	margin: 0px;
 	margin-left: 5%;
+}
+
+/* Sobre home */
+a#botaoCv{
+	font-size: 13px;
+    font-weight: 600;
+    padding: 15px 30px;
+	color: #fff;
+    background: 0 0;
+    border-color: rgba(255,255,255,.3);
+    border-width: 1px;
+	position: relative;
+    display: inline-block;
+    text-align: center;
+    background-image: none;
+    border-style: solid;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	text-transform: uppercase;
+	line-height: 1.4;
+}
+
+a#botaoCv:hover{
+	transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7,1,.7,1);
+	text-decoration: none;
+	color: #24242C;
+    background: #fff;
+    border-color: transparent;
+}
+
+a.icone-sobre i{
+	color: rgba(255,255,255,.3);
+	font-size: 40px !important;
+	margin: auto 20px !important;
+}
+
+a.icone-sobre i:hover{
+	transition-duration: .3s;
+    transition-property: all;
+	color: #fff;
 }
 
 /* Blog home */
