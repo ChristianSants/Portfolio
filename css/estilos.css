@@ -125,6 +125,58 @@ h2.subTitulo{
 	margin-left: 5%;
 }
 
+/* Blog home */
+a#botaoBlog{
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #333333 !important;
+    padding: 16px 20px;
+    color: #fff !important;
+	transition: 1s;
+}
+
+a#botaoBlog:hover{
+	background-color: #16A085 !important;
+	font-weight: 500;
+	text-decoration: none !important;
+}
+
+div.margin-pad{
+	margin-top: 50px !important;
+}
+
+#cab-blog {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/capa2.jpg) no-repeat center top;
+	
+	margin-top: 0px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cab-blog h1 {
+	color:#ffffff;
+	margin-top: 90px;
+	padding-bottom: 30px;
+	letter-spacing: 8px;
+	font-size: 100px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+}
+
 
 /* responsividade em algo que eu criei */
 
