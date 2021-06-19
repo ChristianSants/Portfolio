@@ -1,0 +1,279 @@
+@font-face{
+	font-family: "mr_robot";
+     src: url("../fonts/MR ROBOT.ttf");
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+:target{
+	scroll-margin-top: 30px !important;
+}
+
+body{
+	background-color: #24242C !important;
+	color: #f1f1f1 !important;
+}
+
+footer{
+	margin-top: 5% !important;
+}
+
+code{
+	-webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: consolas,"Liberation Mono",courier,monospace;
+    padding: 0 3px;
+    word-wrap: break-word;
+	background-color: transparent;
+	color: #c7254e !important;
+}
+
+pre{
+	background-color: #eee;
+    border-left: 6px solid #00458b;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0 0 24px;
+    max-width: 100%;
+    overflow: auto;
+    padding: 24px;
+    width: 100%;
+}
+
+/* ================================================== 
+			PADRÕES
+================================================== */
+a{
+	color: #fff !important;
+}
+
+a:hover{
+	text-decoration: none !important;
+	color: #29F3C3 !important;
+}
+
+h2{
+	font-size: 40px !important;
+}
+
+/* ================================================== 
+			MENU
+================================================== */
+#theMenu{
+	z-index: 100;
+}
+
+.menu-close{
+	font-size: 20px !important;
+}
+
+.menu h1.logo a{
+	margin-top: 0px !important;
+	line-height: 30px !important;
+	color: #29F3C3 !important;
+}
+
+.menu h1.logo a:hover{
+	color: #29F3C3 !important;
+	text-decoration: none !important;
+}
+
+.menu a:hover{
+	color: #29F3C3 !important;
+}
+
+.menu a.active {
+    color: #29F3C3 !important;
+/*	text-decoration: underline; */
+}
+
+.menu a{
+	color: #fff !important;
+}
+
+a.icone i{
+	float: inherit !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    text-align: left !important;
+    width: 25px !important;
+    font-size: 35px !important;
+    line-height: 40px !important;
+    margin: 10px 2px 0px 2px !important;
+}
+
+/* ================================================== 
+			HEADER
+================================================== */
+h2.subTitulo{
+	color: #ffffff;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+    font-size: 30px !important;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;	
+}
+
+/* ================================================== 
+			HOME - SOBRE
+================================================== */
+.name-desc h2 {
+	margin-top: 5px !important;
+}
+
+#aboutwrap{
+	margin-bottom: 20px !important;
+}
+
+a#botaoCv{
+	font-size: 13px;
+    font-weight: 600;
+    padding: 15px 30px;
+	color: #fff;
+    background: 0 0;
+    border-color: rgba(255,255,255,.3);
+    border-width: 1px;
+	position: relative;
+    display: inline-block;
+    text-align: center;
+    background-image: none;
+    border-style: solid;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	text-transform: uppercase;
+	line-height: 1.4;
+}
+
+a#botaoCv:hover{
+	transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7,1,.7,1);
+	text-decoration: none;
+	color: #24242C !important;
+    background: #29F3C3;
+    border-color: transparent;
+}
+
+a.icone-sobre i{
+	color: rgba(255,255,255,.3);
+	font-size: 40px !important;
+	margin: auto 20px !important;
+}
+
+a.icone-sobre i:hover{
+	transition-duration: .3s;
+    transition-property: all;
+	color: #29F3C3;
+}
+
+/* ================================================== 
+			HOME - BLOG
+================================================== */
+a#botaoBlog{
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #333333 !important;
+    padding: 16px 20px;
+    color: #fff !important;
+	transition: 1s;
+}
+
+a#botaoBlog:hover{
+	background-color: #29F3C3 !important;
+	color: #24242C !important;
+	font-weight: 500;
+	text-decoration: none !important;
+}
+
+div.margin-pad{
+	margin-top: 50px !important;
+}
+
+#cab-blog {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/capa2.jpg) no-repeat center top;
+	
+	margin-top: 0px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cab-blog h1 {
+	color:#ffffff;
+	margin-top: 90px;
+	padding-bottom: 30px;
+	letter-spacing: 8px;
+	font-size: 100px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+}
+
+
+/* ================================================== 
+			RESPONSIVIDADE
+================================================== */
+@media screen and (max-width:900px){
+	#areaPrincipal{
+		height: 480px;
+	}	
+}
+
+@media screen and (max-width:750px){
+	#areaPrincipal{
+		height: 400px;
+	}
+}
+
+@media screen and (max-width:600px){
+	#areaPrincipal{
+		height: 320px;
+	}
+	
+}
+
+@media screen and (max-width:500px){
+	#areaPrincipal{
+		height: 240px;
+	}
+}
+
+@media screen and (max-width:400px){
+	#myCarousel{
+		height: 300px;
+		width: 90%;
+		margin-left: 5.4%;
+	}
+
+	#myCarousel img{
+		height: 300px;
+		width: 100%;
+	}
+	
+	#areaPrincipal{
+		height: 140px;
+	}
+	
+}

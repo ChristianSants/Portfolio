@@ -7,19 +7,19 @@
       <meta name="description" content="Site onde ensina truques para hackers.">
       <meta name="author" content="Christian dos Santos Figueiró">
 
-      <link rel="shortcut icon" href="img/icone1.ico">
+      <link rel="shortcut icon" href="assets/img/icone1.ico">
       <title>Christian Figueiró | Home</title>
 
       <!-- linkando com meu CSS -->
-      <link href="css/estilos.css" rel="stylesheet">
+      <link href="assets/css/estilos.css" rel="stylesheet">
 
       <!-- Bootstrap CSS -->
-      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="assets/css/bootstrap.css" rel="stylesheet">
 
       <!-- Custom styles for this template -->
-      <link href="css/style.css" rel="stylesheet">
-      <link href="css/font-awesome.min.css" rel="stylesheet">
-      <link href="js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+      <link href="assets/css/style.css" rel="stylesheet">
+      <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+      <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
 
       <!-- Just for debugging purposes. Don't actually copy this line! -->
       <!--[if lt IE 9]><script src="../../js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -30,13 +30,13 @@
       <![endif]-->
 
       <!-- Portfólio CSS -->
-      <link href="css/portfolio.css" rel="stylesheet">
+      <link href="assets/css/portfolio.css" rel="stylesheet">
 
       <!-- Blog CSS -->
-      <link href="css/blog.css" rel="stylesheet">
+      <link href="assets/css/blog.css" rel="stylesheet">
 
       <!-- Qualidade CSS -->
-      <link href="css/qualidades.css" rel="stylesheet">
+      <link href="assets/css/qualidades.css" rel="stylesheet">
 
    </head>
    <body>
@@ -48,7 +48,8 @@
             
             <a href="index.html" class="active" >Home</a>
             <a href="#sobre" class="fecharMenu">Sobre</a> 
-            <a href="#projetos">Projetos</a>
+			<a href="#qualidades" class="fecharMenu">Qualidades</a> 
+            <a href="#projetos" class="fecharMenu">Projetos</a>
             <a href="blog/index.html">Blog</a>
 			<a href="https://github.com/ChristianSants" target="_blank" class="icone"><i class="fa fa-github"></i></a>
 			<a href="https://www.linkedin.com/in/christian-dos-santos-figueir%C3%B3-a33506160/" target="_blank" class="icone"><i class="fa fa-linkedin"></i></a>
@@ -72,7 +73,7 @@
             <div class="container">
                <div class="row">
                   <div class="col-lg-4 name">
-                     <img class="img-responsive" src="img/eu.png" alt="Foto Christian Figueiró">
+                     <img class="img-responsive" src="assets/img/eu.png" alt="Foto Christian Figueiró">
                      <p>Christian Figueiró</p>
                      <hr>
                   </div>
@@ -80,13 +81,15 @@
                   <div class="col-lg-8 name-desc">
                      <h2>Sobre</h2>
                      <hr>
-					<p class="text-justify">Atualmente estagiário em desenvolvimento web na Dableo Comunicação. Cursando Tecnólogo em Sistemas para Internet no IFRS 
-					(atualmente 2º semestre). Técnico em Informática na QI Escolas e Faculdades (2018).</p>
+					<p class="text-justify">Atualmente estagiário em desenvolvimento web na <a href="https://www.dableo.com.br/" target="_blank">Dableo Comunicação.</a>
+					Cursando Tecnólogo em Sistemas para Internet no IFRS (atualmente 2º semestre). Técnico em Informática na QI Escolas e Faculdades (2018).</p>
                     <p class="text-justify">Sou bastante focado, tenho facilidade para aprender novas coisas, sei trabalhar em grupo, gosto de mostrar serviço e quero sempre
 					aprender mais sobre esta área incrivel que é a programação. Atualmente estudo inglês para ter um maior domínio da lingua, tanto profissionalmente como pessoalmente.</p>
 					<p class="text-justify">Abaixo algumas atividades complementares:</p>
-					<li>Projeto de Extensão Material de Apoio para Lógica de Programação. IFRS (2021).</li>
-					<li>Cursos de PHP do nível básico ao intermediário pela plataforma DIO (2021).</li>
+					<ul>
+						<li>Projeto de Extensão Material de Apoio para Lógica de Programação. IFRS (2021).</li>
+						<li>Cursos de PHP do nível básico ao intermediário pela plataforma DIO (2021).</li>
+					</ul>
 					
                <div class="margin-pad">
                   <a href="" id="botaoCv" >Baixar CV</a>
@@ -104,7 +107,6 @@
          <!-- /aboutwrap -->
       </section>
 	  
-      <!-- TESTE -->
       <section id="qualidades">
          <div class="container">
             <div class="row">
@@ -128,7 +130,7 @@
                      </li> 
                      <li class="pr-chart-ctrl" data-animate="false">
                         <p>GIT</p><br>
-                     <div class="pr-chart" data-percent="76"><i></i></div>
+                     <div class="pr-chart" data-percent="75"><i></i></div>
                      </li>
 
                      <li class="pr-chart-ctrl" data-animate="false">
@@ -141,11 +143,11 @@
                      </li>
                      <li class="pr-chart-ctrl" data-animate="false">
                         <p>C</p><br>
-                     <div class="pr-chart" data-percent="78"><i></i></div>
+                     <div class="pr-chart" data-percent="70"><i></i></div>
                      </li>
                      <li class="pr-chart-ctrl" data-animate="false">
                         <p>Java</p><br>
-                     <div class="pr-chart" data-percent="75"><i></i></div>
+                     <div class="pr-chart" data-percent="60"><i></i></div>
                      </li>
 					 <li class="pr-chart-ctrl" data-animate="false">
                         <p>MySQL</p><br>
@@ -156,7 +158,6 @@
             </div><!-- /row -->
          </div><!--/container -->
       </section>
-      <!-- fim TESTE -->
       
       <!--Projetos-->
       <section class="site-section" id="section-portfolio">
@@ -181,13 +182,10 @@
                      <div class="relative">
                         <div class="thumb">
                            <div class="overlay overlay-bg"></div>
-                           <img class="image img-fluid" src="img/tecclean.PNG" alt="">
+                           <a href="http://teccleanrs.com.br/" target="_blank">
+                              <img class="image img-fluid" src="assets/img/tecclean.PNG" alt="">
+                           </a>
                         </div>
-                        <a href="img/tecclean.PNG" class="img-pop-up">
-                           <div class="middle">
-                              <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-                           </div>
-                        </a>
                      </div>
                      <div class="p-inner">
                         <h4>Tec Clean RS</h4>
@@ -198,13 +196,10 @@
                      <div class="relative">
                         <div class="thumb">
                            <div class="overlay overlay-bg"></div>
-                           <img class="image img-fluid" src="img/moveisaparecida.PNG" alt="">
+                           <a href="https://www.moveisaparecida.com.br/" target="_blank">
+                              <img class="image img-fluid" src="assets/img/moveisaparecida.PNG" alt="">
+                           </a>
                         </div>
-                        <a href="img/moveisaparecida.PNG" class="img-pop-up">
-                           <div class="middle">
-                              <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-                           </div>
-                        </a>
                      </div>
                      <div class="p-inner">
                         <h4>Moveis Aparecida</h4>
@@ -215,13 +210,10 @@
                      <div class="relative">
                         <div class="thumb">
                            <div class="overlay overlay-bg"></div>
-                           <img class="image img-fluid" src="img/padariafrohlich.PNG" alt="">
+                           <a href="http://padariafrohlich.com.br/" target="_blank">
+                              <img class="image img-fluid" src="assets/img/padariafrohlich.PNG" alt="">
+                           </a>
                         </div>
-                        <a href="img/padariafrohlich.PNG" class="img-pop-up">
-                           <div class="middle">
-                              <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-                           </div>
-                        </a>
                      </div>
                      <div class="p-inner">
                         <h4>Padaria Fröhlich</h4>
@@ -233,13 +225,10 @@
                      <div class="relative">
                         <div class="thumb">
                            <div class="overlay overlay-bg"></div>
-                           <img class="image img-fluid" src="img/projetoAdvocacia.PNG" alt="">
+                           <a href="" target="">
+                              <img class="image img-fluid" src="assets/img/projetoAdvocacia.PNG" alt="">
+                           </a>
                         </div>
-                        <a href="img/projetoAdvocacia.PNG" class="img-pop-up">
-                           <div class="middle">
-                              <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
-                           </div>
-                        </a>
                      </div>
                      <div class="p-inner">
                         <h4>Projeto de Advocacia</h4>
@@ -251,44 +240,7 @@
             </div>
          </div>
       </section>
-
       <!--FIM PROJETOS-->
-      <!-- Projetos antigo 
-         <section id="projetos">
-         	<div class="container">
-         		<div class="row">
-         			<h1 class="text-center">Projetos</h1>
-         			<ul class="nav nav-tabs text-center">
-         				<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-         				<li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-         				<li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-         				<li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-         			</ul>
-         			<div class="col-md-12 col-sm-6">
-         				  <div class="tab-content">
-         					<div id="home" class="tab-pane fade in active">
-         					  <h3>HOME</h3>
-         					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-         					</div>
-         					<div id="menu1" class="tab-pane fade">
-         					  <h3>Menu 1</h3>
-         					  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-         					</div>
-         					<div id="menu2" class="tab-pane fade">
-         					  <h3>Menu 2</h3>
-         					  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-         					</div>
-         					<div id="menu3" class="tab-pane fade">
-         					  <h3>Menu 3</h3>
-         					  <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-         					</div>
-         				  </div>
-         			</div>
-         		</div>
-         	</div>
-         </section>
-         Fim Projetos antigo -->
-         <br><br>
 
       <!--BLOG-->
       <section class="site-section" id="section-blog">
@@ -304,7 +256,7 @@
             <div class="row">
                <div class="col-sm-6 col-lg-4 mb-4">
                   <div class="blog-entry">
-                     <a href="#"><img src="img/foto18.jpg" alt="Image placeholder" class="img-fluid"></a>
+                     <a href="#"><img src="assets/img/foto18.jpg" alt="Image placeholder" class="img-fluid"></a>
                      <div class="blog-entry-text">
                         <h3><a href="#">Creative Product Designer From Facebook</a></h3>
                         <p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
@@ -319,7 +271,7 @@
    
                <div class="col-sm-6 col-lg-4 mb-4">
                   <div class="blog-entry">
-                     <a href="#"><img src="img/foto15.jpg" alt="Image placeholder" class="img-fluid"></a>
+                     <a href="#"><img src="assets/img/foto15.jpg" alt="Image placeholder" class="img-fluid"></a>
                      <div class="blog-entry-text">
                         <h3><a href="#">Creative Product Designer From Facebook</a></h3>
                         <p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
@@ -334,7 +286,7 @@
    
                <div class="col-sm-6 col-lg-4 mb-4">
                   <div class="blog-entry">
-                     <a href="#"><img src="img/capa2.jpg" alt="Image placeholder" class="img-fluid"></a>
+                     <a href="#"><img src="assets/img/capa2.jpg" alt="Image placeholder" class="img-fluid"></a>
                      <div class="blog-entry-text">
                         <h3><a href="#">Creative Product Designer From Facebook</a></h3>
                         <p class="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
@@ -356,8 +308,7 @@
          </div>
       </section>
       <!--FIM BLOG-->
-      <br><br>
-
+	  
       <footer>
          <div id="contactwrap">
             <div class="container">
@@ -378,10 +329,10 @@
                      </p>
                   </div>
                   <div class="col-lg-6">
-                     <form role="form">
+                     <form>
                         <div class="form-group">
                            <label>Seu nome</label>
-                           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Fulano da Silva">
+                           <input type="email" class="form-control" id="exampleInputName1" placeholder="Fulano da Silva">
                            <label>Seu email</label>
                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="fulano.silva@gmail.com">
                            <label>Mensagem</label>
@@ -400,26 +351,26 @@
          ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <script src="js/classie.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/jquery.stellar.min.js"></script>
-      <script src="js/fancybox/jquery.fancybox.js"></script>    
-      <script src="js/main.js"></script>
+      <script src="assets/js/classie.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/jquery.stellar.min.js"></script>
+      <script src="assets/js/fancybox/jquery.fancybox.js"></script>    
+      <script src="assets/js/main.js"></script>
       <!-- Para fazer a pagina ir para baixo e para cima -->
       <!-- Bootstrap core JavaScript -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
       <!-- Plugin JavaScript -->
-      <script src="js/jquery.easing.min.js"></script>
+      <script src="assets/js/jquery.easing.min.js"></script>
       <!-- Custom scripts for this template -->
-      <script src="js/resume.min.js"></script>
+      <script src="assets/js/resume.min.js"></script>
       <!-- JS Portfólio -->
       <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
       <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-      <script src="js/portfolio.js"></script>
+      <script src="assets/js/portfolio.js"></script>
       <!-- JS Qualidades -->
-      <script src="js/jquery.easypiechart.min.js"></script>
+      <script src="assets/js/jquery.easypiechart.min.js"></script>
       <!-- JS Fechar menu -->
-      <script src="js/fecharMenu.js"></script>
+      <script src="assets/js/fecharMenu.js"></script>
    </body>
 </html>
