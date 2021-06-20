@@ -197,7 +197,7 @@ a#botaoBlog:hover{
 }
 
 div.margin-pad{
-	margin-top: 50px !important;
+	margin-top: 50px;
 }
 
 #cab-blog {
@@ -235,45 +235,66 @@ div.margin-pad{
 /* ================================================== 
 			RESPONSIVIDADE
 ================================================== */
-@media screen and (max-width:900px){
-	#areaPrincipal{
-		height: 480px;
-	}	
-}
-
-@media screen and (max-width:750px){
-	#areaPrincipal{
-		height: 400px;
-	}
-}
-
-@media screen and (max-width:600px){
-	#areaPrincipal{
-		height: 320px;
+/*MOBILE*/
+@media (max-width:415px){
+/* HOME*/
+	/*Header*/
+	#headerwrap h1 {
+		font-size: 60px !important;
 	}
 	
+	h2.subTitulo {
+		font-size: 22px !important;
+	}
+	/*Sobre*/
+	.mb-hidden{
+		display: none;
+	}
+
+	.margin-pad{
+		margin-top: 30px !important;
+		text-align: center;
+	}
+	/*Qualidades*/
+	.pr-charts .pr-chart-ctrl{
+		width:50% !important;
+		margin-left: -4%;
+	}
+
+	canvas{
+		height: 120px !important;
+		width: 120px !important;
+	}
+
+	.pr-charts .pr-chart-ctrl p {
+		font-size: 16px !important;
+	}
+
+	.pr-charts .pr-chart-ctrl .pr-chart i {
+		height: 120px !important;
+		line-height: 120px !important;
+		font-size: 25px !important;
+	}
+
+	/*Blog*/
+	.blog-entry .blog-entry-text {
+		margin-bottom: 20px;
+	}
+/* FIM HOME*/
+	/*Footer*/
+	footer {
+		margin-top: 10% !important;
+	}
 }
 
-@media screen and (max-width:500px){
-	#areaPrincipal{
-		height: 240px;
-	}
-}
-
-@media screen and (max-width:400px){
-	#myCarousel{
-		height: 300px;
-		width: 90%;
-		margin-left: 5.4%;
+/*TABLET*/
+@media (max-width:769px){
+	/* HOME*/
+	.tb-hidden{
+		display: none !important;
 	}
 
-	#myCarousel img{
-		height: 300px;
-		width: 100%;
+	.tb-center{
+		margin-top: auto;
 	}
-	
-	#areaPrincipal{
-		height: 140px;
-	}
-	
 }
