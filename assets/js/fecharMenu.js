@@ -1,13 +1,4 @@
-/*
-$('body').on('click', function(e) {
-    var $this = $(this);
-    e.preventDefault();
-
-    if ( $('nav').hasClass('menu-open') ) {
-        $('nav').removeClass('menu-open');
-        $this.removeClass('active');
-    } else {
-        
-    }
-})
-*/
+$('body').on('tap click', function(e){
+    if(e.target !== $('nav.menu-open')[0] && $(e.target).closest('nav.menu-open').attr('class') != 'menu menu-open')
+        $("main, nav.menu-open").removeClass('menu-open');
+});
