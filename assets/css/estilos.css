@@ -20,26 +20,28 @@ footer{
 	margin-top: 5% !important;
 }
 
-code{
-	-webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-    font-family: consolas,"Liberation Mono",courier,monospace;
-    padding: 0 3px;
-    word-wrap: break-word;
-	background-color: transparent;
+code{ 
+	-webkit-box-decoration-break: clone !important;
+    box-decoration-break: clone !important;
+    font-family: consolas,"Liberation Mono",courier,monospace !important;
+    padding: 0 3px !important;
+    word-wrap: break-word !important;
+	background-color: transparent !important;
 	color: #c7254e !important;
+	text-align: left !important;
+	float: left !important;
 }
 
 pre{
-	background-color: #eee;
-    border-left: 6px solid #00458b;
-    font-size: 1rem;
-    line-height: 1.4;
-    margin: 0 0 24px;
-    max-width: 100%;
-    overflow: auto;
-    padding: 24px;
-    width: 100%;
+	background-color: #eee !important;
+    margin: 0 0 24px!important;
+    max-width: 100% !important;
+    overflow: auto !important;
+    padding: 0px 24px!important;
+    width: 100% !important;
+	white-space: pre-wrap !important;
+	text-align: left !important;
+	float: left !important;
 }
 
 /* ================================================== 
@@ -229,9 +231,41 @@ div.margin-pad{
 	font-size: 100px;
 	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
+} 
+
+/* ================================================== 
+			MATERIAS
+================================================== */
+#cab-blog-materia {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/capa2.jpg) no-repeat center top;
+	
+	margin-top: 0px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-
+#cab-blog-materia h1 {
+	color:#ffffff;
+	margin-top: 90px;
+	padding-bottom: 30px;
+	letter-spacing: 8px;
+	font-size: 100px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+} 
 /* ================================================== 
 			RESPONSIVIDADE
 ================================================== */
@@ -281,6 +315,19 @@ div.margin-pad{
 		margin-bottom: 20px;
 	}
 /* FIM HOME*/
+
+/* BLOG*/
+	/*Header*/
+	#cab-blog h1{
+		font-size: 60px !important;
+		margin-top: 35% !important;
+	}
+
+	#cab-blog-materia h1 {
+		font-size: 60px !important;
+	}
+
+/* FIM BLOG*/
 	/*Footer*/
 	footer {
 		margin-top: 10% !important;
@@ -296,5 +343,16 @@ div.margin-pad{
 
 	.tb-center{
 		margin-top: auto;
+	}
+
+	/*Blogs*/
+	.blog-entry img{
+		max-height: 230px !important;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.blog-entry{
+		margin-bottom: 20px;
 	}
 }

@@ -7,8 +7,8 @@
       <meta name="description" content="Site onde ensina truques para hackers.">
       <meta name="author" content="Christian dos Santos Figueiró">
 
-      <link rel="shortcut icon" href="assets/img/icone1.ico">
-      <title>Christian Figueiró | Matéria 1</title>
+      <link rel="shortcut icon" href="../assets/img/icone.ico">
+      <title>Blog | Detalhe 3D no hover</title>
 
       <!-- linkando com meu CSS -->
       <link href="../assets/css/estilos.css" rel="stylesheet">
@@ -47,7 +47,7 @@
 
    </head>
    <body>
-    <div id="cab-blog">
+    <div id="cab-blog-materia">
         <div class="container">
            <div class="row">
               <div class="col-md-10 col-md-offset-1">
@@ -68,7 +68,7 @@
             <a href="../index.html#sobre">Sobre</a>
 			<a href="../index.html#qualidades">Qualidades</a>
             <a href="../index.html#projetos">Projetos</a>
-            <a href="blog/index.html" class="active">Blog</a>
+            <a href="index.html" class="">Blog</a>
 			<a href="https://github.com/ChristianSants" target="_blank" class="icone"><i class="fa fa-github"></i></a>
 			<a href="https://www.linkedin.com/in/christian-dos-santos-figueir%C3%B3-a33506160/" target="_blank" class="icone"><i class="fa fa-linkedin"></i></a>
          </div><!-- Menu button -->
@@ -81,32 +81,32 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="col-md-4">
-                        <img class='ex' src="../assets/img/foto10.jpg" alt="Foto 1">
+                        <img class='ex' src="../assets/img/foto1.jpg" alt="Foto 1">
                     </div>
                     <div class="col-md-4">
-                        <img class='ex' src="../assets/img/foto11.jpg" alt="Foto 2">
+                        <img class='ex' src="../assets/img/foto2.jpg" alt="Foto 2">
                     </div>
                     <div class="col-md-4">
-                        <img class='ex' src="../assets/img/foto12.jpg" alt="Foto 3">
+                        <img class='ex' src="../assets/img/foto3.jpg" alt="Foto 3">
                     </div>
                 </div>
                 <div class="col-md-12">
                     <br><br>
                     <h2>HTML:</h2>
 
-                    <pre>
+                    <pre class="brush: html notranslate">
                         <code>
-                            &lt;div class="col-md-12"&gt; 
-                                &lt;div class="col-md-4"&gt;   
-                                    &lt;img class='ex' src="../assets/img/foto10.jpg" alt="Foto 1"&gt;
-                                &lt;/div&gt;
-                                &lt;div class="col-md-4"&gt;
-                                    &lt;img class='ex' src="../assets/img/foto11.jpg" alt="Foto 2"&gt; 
-                                &lt;/div&gt;  
-                                &lt;div class="col-md-4"&gt;  
-                                    &lt;img class='ex' src="../assets/img/foto12.jpg" alt="Foto 3"&gt; 
-                                &lt;/div&gt;  
-                            &lt;/div&gt;    
+&lt;div class="col-md-12"&gt; 
+   &lt;div class="col-md-4"&gt;   
+      &lt;img class='ex' src="../assets/img/foto10.jpg" alt="Foto 1"&gt;
+   &lt;/div&gt;
+   &lt;div class="col-md-4"&gt;
+      &lt;img class='ex' src="../assets/img/foto11.jpg" alt="Foto 2"&gt; 
+   &lt;/div&gt;  
+   &lt;div class="col-md-4"&gt;  
+      &lt;img class='ex' src="../assets/img/foto12.jpg" alt="Foto 3"&gt; 
+   &lt;/div&gt;  
+&lt;/div&gt;   
                         </code>
                     </pre>
 
@@ -115,17 +115,17 @@
 
                     <pre>
                         <code>
-                            img.ex{
-                                margin-top: 30px;
-                                height: 300px;
-                                object-fit: cover;
-                                width: 100%;
-                             }
-                                 
-                             img.ex:hover{
-                                 box-shadow: 25px 35px 1px #000;
-                                 transition: box-shadow 0.3s ease-in-out;
-                             }
+img.ex{
+   margin-top: 30px;
+   height: 300px;
+   object-fit: cover;
+   width: 100%;
+}
+
+img.ex:hover{
+   box-shadow: 25px 35px 1px #000;
+   transition: box-shadow 0.3s ease-in-out;
+}
                         </code>
                     </pre>
                 </div>
