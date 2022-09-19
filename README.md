@@ -1,4 +1,4 @@
-# Projeto Final da cadeira de Banco de dados II
+# Portfólio
 
 Portfólio pessoal, com alguns resumos sobre mim!
 
