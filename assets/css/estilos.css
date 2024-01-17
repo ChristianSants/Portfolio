@@ -1,44 +1,44 @@
-@font-face{
+@font-face {
 	font-family: "mr_robot";
-     src: url("../fonts/MR ROBOT.ttf");
+	src: url("../fonts/MR ROBOT.ttf");
 }
 
-html{
+html {
 	scroll-behavior: smooth;
 }
 
-:target{
+:target {
 	scroll-margin-top: 30px !important;
 }
 
-body{
+body {
 	background-color: #24242C !important;
 	color: #f1f1f1 !important;
 }
 
-footer{
+footer {
 	margin-top: 5% !important;
 }
 
-code{ 
+code {
 	-webkit-box-decoration-break: clone !important;
-    box-decoration-break: clone !important;
-    font-family: consolas,"Liberation Mono",courier,monospace !important;
-    padding: 0 3px !important;
-    word-wrap: break-word !important;
+	box-decoration-break: clone !important;
+	font-family: consolas, "Liberation Mono", courier, monospace !important;
+	padding: 0 3px !important;
+	word-wrap: break-word !important;
 	background-color: transparent !important;
 	color: #c7254e !important;
 	text-align: left !important;
 	float: left !important;
 }
 
-pre{
+pre {
 	background-color: #eee !important;
-    margin: 0 0 24px!important;
-    max-width: 100% !important;
-    overflow: auto !important;
-    padding: 0px 24px!important;
-    width: 100% !important;
+	margin: 0 0 24px !important;
+	max-width: 100% !important;
+	overflow: auto !important;
+	padding: 0px 24px !important;
+	width: 100% !important;
 	white-space: pre-wrap !important;
 	text-align: left !important;
 	float: left !important;
@@ -47,76 +47,76 @@ pre{
 /* ================================================== 
 			PADRÕES
 ================================================== */
-a{
+a {
 	color: #fff !important;
 }
 
-a:hover{
+a:hover {
 	text-decoration: none !important;
 	color: #29F3C3 !important;
 }
 
-h2{
+h2 {
 	font-size: 40px !important;
 }
 
 /* ================================================== 
 			MENU
 ================================================== */
-#theMenu{
+#theMenu {
 	z-index: 100;
 }
 
-.menu-close{
+.menu-close {
 	font-size: 20px !important;
 }
 
-.menu h1.logo a{
+.menu h1.logo a {
 	margin-top: 0px !important;
 	line-height: 30px !important;
 	color: #29F3C3 !important;
 }
 
-.menu h1.logo a:hover{
+.menu h1.logo a:hover {
 	color: #29F3C3 !important;
 	text-decoration: none !important;
 }
 
-.menu a:hover{
+.menu a:hover {
 	color: #29F3C3 !important;
 }
 
 .menu a.active {
-    color: #29F3C3 !important;
-/*	text-decoration: underline; */
+	color: #29F3C3 !important;
+	/*	text-decoration: underline; */
 }
 
-.menu a{
+.menu a {
 	color: #fff !important;
 }
 
-a.icone i{
+a.icone i {
 	float: inherit !important;
-    display: inline-block !important;
-    vertical-align: middle !important;
-    text-align: left !important;
-    width: 25px !important;
-    font-size: 35px !important;
-    line-height: 40px !important;
-    margin: 10px 2px 0px 2px !important;
+	display: inline-block !important;
+	vertical-align: middle !important;
+	text-align: left !important;
+	width: 25px !important;
+	font-size: 35px !important;
+	line-height: 40px !important;
+	margin: 10px 2px 0px 2px !important;
 }
 
 /* ================================================== 
 			HEADER
 ================================================== */
-h2.subTitulo{
+h2.subTitulo {
 	color: #ffffff;
-    margin-top: 0px;
-    padding-bottom: 30px;
-    letter-spacing: 8px;
-    font-size: 30px !important;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px #000;	
+	margin-top: 0px;
+	padding-bottom: 30px;
+	letter-spacing: 8px;
+	font-size: 30px !important;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
 }
 
 /* ================================================== 
@@ -126,176 +126,189 @@ h2.subTitulo{
 	margin-top: 5px !important;
 }
 
-#aboutwrap{
+#aboutwrap {
 	margin-bottom: 20px !important;
 }
 
-a#botaoCv{
+a#botaoCv {
 	font-size: 13px;
-    font-weight: 600;
-    padding: 15px 30px;
+	font-weight: 600;
+	padding: 15px 30px;
 	color: #fff;
-    background: 0 0;
-    border-color: rgba(255,255,255,.3);
-    border-width: 1px;
+	background: 0 0;
+	border-color: rgba(255, 255, 255, .3);
+	border-width: 1px;
 	position: relative;
-    display: inline-block;
-    text-align: center;
-    background-image: none;
-    border-style: solid;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+	display: inline-block;
+	text-align: center;
+	background-image: none;
+	border-style: solid;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 	text-transform: uppercase;
 	line-height: 1.4;
 }
 
-a#botaoCv:hover{
+a#botaoCv:hover {
 	transition-duration: .3s;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.7,1,.7,1);
+	transition-property: all;
+	transition-timing-function: cubic-bezier(.7, 1, .7, 1);
 	text-decoration: none;
 	color: #24242C !important;
-    background: #29F3C3;
-    border-color: transparent;
+	background: #29F3C3;
+	border-color: transparent;
 }
 
-a.icone-sobre i{
-	color: rgba(255,255,255,.3);
+a.icone-sobre i {
+	color: rgba(255, 255, 255, .3);
 	font-size: 40px !important;
 	margin: auto 20px !important;
 }
 
-a.icone-sobre i:hover{
+a.icone-sobre i:hover {
 	transition-duration: .3s;
-    transition-property: all;
+	transition-property: all;
 	color: #29F3C3;
 }
 
 /* ================================================== 
 			HOME - BLOG
 ================================================== */
-a#botaoBlog{
-    font-family: "Poppins", Sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: #333333 !important;
-    padding: 16px 20px;
-    color: #fff !important;
+a#botaoBlog {
+	font-family: "Poppins", Sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	background-color: #333333 !important;
+	padding: 16px 20px;
+	color: #fff !important;
 	transition: 1s;
 }
 
-a#botaoBlog:hover{
+a#botaoBlog:hover {
 	background-color: #29F3C3 !important;
 	color: #24242C !important;
 	font-weight: 500;
 	text-decoration: none !important;
 }
 
-div.margin-pad{
+div.margin-pad {
 	margin-top: 50px;
 }
 
 #cab-blog {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/capa2.jpg) no-repeat center top;
-	
+
 	margin-top: 0px;
-	text-align:center;
+	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 300px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #cab-blog h1 {
-	color:#ffffff;
+	color: #ffffff;
 	margin-top: 90px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
 	font-size: 100px;
 	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
-} 
+}
 
 /* ================================================== 
 			MATERIAS
 ================================================== */
 #cab-blog-materia {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/capa2.jpg) no-repeat center top;
-	
+
 	margin-top: 0px;
-	text-align:center;
+	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 300px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #cab-blog-materia h1 {
-	color:#ffffff;
+	color: #ffffff;
 	margin-top: 90px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
 	font-size: 100px;
 	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
-} 
+}
+
+#aboutwrap .name {
+	transition: transform 0.5s ease-in-out;
+}
+
+#aboutwrap .name:hover {
+	transform: scale(1.1);
+}
+
+
 /* ================================================== 
 			RESPONSIVIDADE
 ================================================== */
 /*MOBILE*/
-@media (max-width:415px){
-/* HOME*/
+@media (max-width:415px) {
+
+	/* HOME*/
 	/*Header*/
 	#headerwrap h1 {
 		font-size: 60px !important;
 	}
-	
+
 	h2.subTitulo {
 		font-size: 22px !important;
 	}
+
 	/*Sobre*/
-	.mb-hidden{
+	.mb-hidden {
 		display: none;
 	}
 
-	.margin-pad{
+	.margin-pad {
 		margin-top: 30px !important;
 		text-align: center;
 	}
+
 	/*Qualidades*/
-	.pr-charts .pr-chart-ctrl{
-		width:50% !important;
+	.pr-charts .pr-chart-ctrl {
+		width: 50% !important;
 		margin-left: -4%;
 	}
 
-	canvas{
+	canvas {
 		height: 120px !important;
 		width: 120px !important;
 	}
@@ -314,11 +327,12 @@ div.margin-pad{
 	.blog-entry .blog-entry-text {
 		margin-bottom: 20px;
 	}
-/* FIM HOME*/
 
-/* BLOG*/
+	/* FIM HOME*/
+
+	/* BLOG*/
 	/*Header*/
-	#cab-blog h1{
+	#cab-blog h1 {
 		font-size: 60px !important;
 		margin-top: 35% !important;
 	}
@@ -327,7 +341,7 @@ div.margin-pad{
 		font-size: 60px !important;
 	}
 
-/* FIM BLOG*/
+	/* FIM BLOG*/
 	/*Footer*/
 	footer {
 		margin-top: 10% !important;
@@ -335,24 +349,25 @@ div.margin-pad{
 }
 
 /*TABLET*/
-@media (max-width:769px){
+@media (max-width:769px) {
+
 	/* HOME*/
-	.tb-hidden{
+	.tb-hidden {
 		display: none !important;
 	}
 
-	.tb-center{
+	.tb-center {
 		margin-top: auto;
 	}
 
 	/*Blogs*/
-	.blog-entry img{
+	.blog-entry img {
 		max-height: 230px !important;
 		width: 100%;
 		object-fit: cover;
 	}
 
-	.blog-entry{
+	.blog-entry {
 		margin-bottom: 20px;
 	}
 }
